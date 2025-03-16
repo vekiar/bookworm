@@ -1,0 +1,539 @@
+High Output Management
+
+Introduction
+- When under strong attack, lead with your strength(s).
+- Being second best in a tough environment is just not good enough.
+- The US Market for goods and services is the largest in the world [mrv: still true?].
+- If the world operates as one big market, every employee will compete with every person [mrv: and AI system] anywhere in the world who is capable of doing the same job.
+- The ultimate competitive advantage is time -> “When products and services become largely indistinguishable from each other, all there is by the way of competitive advantage is time”.
+    - Email -> days into minutes (descisions), reach N with the same effort as 1 (Principle for Invent & Simplify).
+- Table with "speaking distance" seating (competitive advantage [time, scale] of Japanese companies in the 1980s).
+    - Make it _easy_ to communicate and collaborate.
+- Force of globalization and the information revolution = adapt or _die_.
+    - "Only the paranoid survive".
+- New environment [mrv: might have lost the thread here].
+    - Faster.
+    - Everything that can be done, _will_ be done.
+- Managers will have a higher tolerance for disorder -> "micro CEO".
+    - Do the impossible; anticipate the unexpected.
+- 3 basic ideas:
+    - Output-oriented approach to management.
+        - All employees "produce".
+        - Principles and discipline of production -> create a common approach to evaluating and managing any type of "production".
+    - The output of a manager is the output of the organizational units under their direct supervision or influence.
+        - High management performance = prioritize the tasks with the highest leverage.
+    - [No plan survives first contact with the enemy] Plan like a fire department plans.
+        - You cannot anticipate where the next fire will be.
+        - Shape a team that can respond to the unanticipated as well as to any ordinary event.
+        - A responsive company should have fewer levels of managers.
+- Fundamental tenet of management -> 1:1.
+    - A process of mutual education.
+    - An exchange of information (receive, give).
+    - Tool to diffuse information at-scale, asynchronously.
+- A manager is a "1-person company" in competition with millions of other similar businesses [mrv: and AI systems].
+- Questions for a manager to ponder on:
+    - Are you adding real value to the operation?
+        - Every hour of your day should be spent increasing the output or the value of the output of the people whom you are responsible for.
+    - Are you a connected (team, company, industry) node? Or simply floating around?
+    - Are you trying new ideas, techniques, and technologies?
+        - Are you doing it, or reading about it?
+- You cannot be optimistic about the future until you have survived the crucible of change.
+    - The key to survival is to learn to add more value.
+- Apply the methods of _production_, exercise _managerial leverage_, and elicit an athlete's desire for _peak performance_ = be more productive.
+
+Foreword
+- "High Output Management" teaches people how to be great.
+- All you can do to improve the output of a builder is motivate and train them.
+- Energy put into the process early pays off tenfold, energy put into the process at the end has a negative effect.
+- Andy was always teaching and always expecting more from every student.
+- "CEOs always act on leading indicators of good news, but only act on lagging indicators of bad news".
+
+The Breakfast Factory
+- "Your job is to prepare and deliver the three items [coffee, soft-boiled egg, buttered toast] simultaneously, each of them fresh and hot".
+- "Breakfast preparation, college recruiting, sales training, and compiler design are very much unlike one another, but all of them posses a basically similar flow of activit to produce a specific output".
+- Basic requirements: delivery time (fast), quality (good), cost (cheap).
+- The objective **cannot** be what the customer wants when the customer wants it.
+    - That would require infinite production capacity.
+- Optimal breakfast: 1/ always idle kitchen; or 2/ unlimited inventory.
+    - Neither is practical.
+- We need to create realistic objectives:
+    - 5-to-10 minute wait once the customer walks in the door.
+    - Competitive price.
+    - Acceptable margin of profit.
+- How do we meet these objectives?
+    - Identify the limiting step (the thing with the longest lead/preparation time).
+    - Plan the JOB around the limiting factor (in our example, the egg).
+    - Work _back_ from the time of delivery.
+    - Ensure all the components are ready at the same time.
+    - Assemble the components on a tray:
+        - Get the toast from the toaster.
+        - Pour the coffee from the pot.
+        - Get the eggs out from the water, peel them, and let them sit for residual cooking.
+    - Time the toast on base(egg) [mrv: butter, other toppings?]
+    - Time the coffee on base(toast) [mrv: this assumes drip, what about espresso?]
+- Construct your production flows: start with the limiting factor and work backwards from delivery.
+- What are our production operations?
+    - Process: physical or chemical alteration of the product.
+    - Assembly: putting things together [mrv: includes butter on toast, etc?]
+    - Test: examine the resulting characteristics.
+        - Unit test: test that the coffee is hot, the toast is buttered, the eggs are peeled and soft-boiled (each at their own station).
+        - System and / or integration test: test that the coffee is hot, the butter melted to the right point, egg not overdone when all on tray.
+        - Regression testing: ensure the final product has not regressed from previously known good cases.
+            - E.g. if a toaster runs hot or cold.
+- Real life is complicated.
+    - There is no infinite capacity.
+    - We need to adjust the production flow to account for the size of queue.
+        - Faster to maintain rate of production if we have a sudden inflow of customers (objective is 5-10 minutes wait, not 30!).
+    - Capacity will become the limiting step (eventually!).
+- Complication: what happens if you need to start B, but are still waiting on A?
+    - You could avoid the situation by having _specialists_ (1x egg-cooker, 1x toast-maker, 1x coffee-pourer).
+        - Overhead.
+        - Expensive.
+    - You could collaborate, ask the next person in line to take care of an item for you.
+        - Introduces dependencies (other people).
+        - Quality becomes less predictable.
+    - You could add more capacity (more coffee pots, toasters, egg cookers).
+        - Expensive.
+    - You could build up more inventory of hot coffee, ready-made toast, and soft-boiled eggs.
+        - You would have a lot of _waste_, throwing away what is not used when it is cold (toast) or overcooked (eggs).
+    - Conclusion(s):
+        - Everything costs money.
+        - Capacity, human capital, and inventory can all be traded against each other, and balanced against delivery time.
+- The right answer
+    - Best delivery time, best quality, lowest cost
+    - Tradeoffs: manpower, capacity, inventory
+    - Force (!!) yourself to understand the relationships between the components of the production process
+- Continuous operations and automation
+    - It does not imply lower cost and better quality
+    - Automated systems can (and tend to!) malfunction -> creating waste!
+    - You need to implement functional testing of the output (crack and egg to see if it is boiled?)
+    - You need to implement in-process inspection / observability (thermometer in the water?)
+        - and alert when something fails! (e.g. water temperature < X)
+    - You need to implement an incoming materials inspection (e.g. for cracked eggs, right sized eggs)
+    - You will need to have final produce (output) inventory to cover consumption through the replacement of parts
+- Strive to find issues at the lowest value stage/s
+    - Raw egg -> candidate is the employee
+    - Do not allow the wrong step to limit the process
+
+Managing the Breakfast Factory
+- Indicators as key tools
+- Outputs change
+    - From personal experience -> performance indicators
+- Focus indicators on performance-related goals
+    - Forecast: delivered vs plan (variance)
+    - Inventory
+    - Condition of equipment
+    - Manpower (people out sick, etc)
+    - Quality and satisfaction indicators
+- Look at KPIs first thing every morning
+    - Pair KPIs and indicators to derive insights (quantity _and_ quality)
+- Effective indicators measure output, not activity
+    - This is also valid for goals (fundamental problem of many "modern" goals systems)
+    - E.g. sales by order volumes, not number of sales calls
+    - Output measurement should be a _physical_ thing
+    - Indicators should make the objectives of a group (e.g. Sales) clear
+- Linearity indicator
+    - Early morning
+- Trend indicators
+    - Output against time
+    - Extrapolate the past onto the future
+- Stagger chart
+    - Forecast trends
+    - Improvement or degradation of forecast outlook
+- Indicators -> data to solve problems
+- Controlling future output
+    - Build to order -> sofa, car, breakfast
+    - Build to forecast -> contemplate future orders
+        - Inventory creates a capital risk
+        - Parallel flows -> match precision
+        - Neither flow is completely predictable
+            - Build slack -> obvious place is inventory
+            - Keep inventory at the lowest possible value stage (e.g. raw eggs)
+- Standards for work (output) and staffing to forecast 
+    - (!!) Flywheel for productivity
+
+Assuring Quality
+- Inspection points
+    - Incoming inspection
+    - In process
+    - Outgoing
+    - Exceptions will drive low quality
+- Avoid reliability problems
+- Inspecting costs money!
+- Variable inspections -> more/less frequency -> lower inspection cost
+- US Visa example
+    - Give everyone a visa, no questions asked
+    - Quality control a % of the applications
+        - If sample size adequate, undesirables will be kept out
+        - Variable inspection, if the % of inspected applications should be rejected, inspect more
+
+Productivity
+- Productivity = output / labor
+    - To increase it -> work faster or harder
+    - Or change the nature of the work performed
+        - Increase the ratio of output to activity (work "smarter")
+        - Increase the leverage of activities
+    - Arrange black box high output per activity
+- Work simplification
+    - Flow chart of production processes
+        - Goal -> reduce the number of steps (target 50% reduction or more)
+        - Why is each step performed?
+- Soft professions -> hard to define output -> likened to activity
+
+Management is a Team Game
+- Manager output = sum(Output(organization) + Output(adjacent_organizations))
+- Work is done by _teams_
+- Manager should not create output
+- Understand
+    - 1/ How to increase productibity
+    - 2/ How to influence other organizations
+- Work is *never* done
+    - End your day when you are tired and ready to go home
+- Shift effort towards areas with the most leverage
+- Information-gathering
+    - Verbal -> most valuable, fast, no discipline
+    - Observe -> troop the line
+        - (??) What is the equivalent of a "walk-through" for Solutions Architects?
+- Information-giving
+    - Clear communication, set standards and expectations
+- Decisions
+    - Forward-looking
+    - Response to crisis
+- Nudging -> ask earnest questions
+- Nothing leads as well as example
+- Meetings should be a medium to gather and give information, set expectations, be a role model
+
+Leverage
+- Manager output is the product of activities and their corresponding leverage
+- Output of a manager can be increased by:
+    - Increasing the rate of activities
+    - Increasing the leverage of activities
+    - Shifting focus from lower to higher leverage activities
+- High Leverage
+    - Affects many people
+    - Affects individuals over long periods of time
+    - Affects large groups through individuals with unique knowledge
+- Any work doen in preparation for a meeting is high leverage
+- (??) Ticker file -> reasearch (!!)
+- Delegation --> *essential* high leverage activity
+- Variable approach to inspection at work is high leverage
+- Identifying the limiting step of a production line is high leverage
+- Forecast and *plan* your time
+    - Calendar -> medium -> production planning tool
+    - Use your calendar *actively*
+    - Say *NO* (or delegate)
+- Ideal number of reports is 6-8 (less is too few, more is too many)
+- Interruptions
+    - Recognize time bombs -> deal with them *when* you want to
+- People interrupting might have a legitimate reason or problem
+- Staff meeting / office hours -> batch questions
+- Use indicators to have information readily available
+
+Meetings
+- They are a *medium* to supply information and know-how
+- Your goal should be to use them effectively
+- Be process- and mission oriented
+- Process
+    - Regular
+    - Familiar
+    - Outcome / Output
+    - 1-on-1
+        - Mutual teaching and exchange of information
+        - Use as a report/teacher, supervisor/student opportunity
+        - Frequency -> variable according to maturity and need for inspection
+        - Duration -> "long enough" (not more and not less)
+        - Supervisor should go to report
+        - Agenda set by report (no exception!)
+        - Focus on indicators (this is why objectives are a priority)
+            - Discuss potential problems first! (KCI/KCR)
+            - Focus on reports' problems
+        - Ask one more earnest question - always!
+        - Don't speak, instead listen (20/80)
+        - Take notes to prevent drift
+        - Hold file (repository for actions, topics, etc)
+- Heart-to-heart
+    - What things are bothering you?
+    - Performance self-assessment?
+    - 1-on-1's are *high* leverage
+- Staff meeting
+    - Learning and information-gathering exercise
+    - Learn from interactions *and* confrontation
+    - Discuss issues that affect > 2 people
+    - Mostly structured, agenda in advance, AOB
+    - Not a lecture! Manager is a moderator and facilitator (keep the discussion on track, let others speak!)
+- Operations Reviews
+    - Formal presentation and review
+    - Peer-to-peer
+    - Supervisor in charge of house-keeping, time-keeping, notes
+    - You are *paid* to attend
+- Mission-oriented
+    - Ad-hoc meeting in support of a specific output and / or decision
+    - Person chairing the meeting is responsible for achieving the objective
+    - Leave if you are not adding value
+    - Terminate if at low value stage or not needed
+    - Time wasted = money wasted
+    - (!!) Look at p. 87 for why firedrills are a symptom of a disease
+
+Decisions
+- Knowledge industry: divergence of power (position, knowledge)
+    - Higher position implies lower knowledge (of the domain and what is happening)
+- Differentiated decision-making process
+    - Free discussion -> *CLEAR* decision -> Full support.
+        - If wrong decision, start again
+- Acception decisions can be tough
+- Senior leaders should be _equals_ through the discussion (and speak last!)
+- Need to combine position and knowledge into a single decision
+- "Peers + 1" model -> if consensus cannot be reached, make a decision
+    - Avoid weak group positional consensus or statements
+- Dispel fear of being overruled
+- Free discussion has an optimal point (and a rabbit-hole point of no return)
+    - Bottom out the problem, hear alternatives, make a call
+- (!!) p.98 -> 6 questions in advance of meetings
+    - What decision needs to be made?
+    - When does it have to be made?
+    - Who will decide?
+    - Who will need to be consulted prior to making the decision?
+    - Who will ratify or veto the decision?
+    - Who will need to be informed of the decision?
+- Consistency is *how* we make decisions
+
+Planning today's actions for tomorrow's output
+- Planning is an ordinary activity (GRACIAS!!)
+- Key method to control output is demand forecasting
+    - Determine market demand
+    - Establish production without adjustment
+    - Reconcile projected output with forecasted demand
+- Planning should be analogous
+    - Projected need and demand
+    - Present status
+        - Where will your business be if we do nothing
+    - Compare + reconcile
+- Think of team / group as a company - analyze their environment
+    - Customers, vendors, competitors?
+    - What will it look like in one year?
+    - Difference analysis (you could include Wardley mapping in here!)
+    - Determine present status
+- (!!) Strategy at your level is tactics at Level + 1
+- What you do *now* affects all *future* events
+- (!!) Today's gap is a failure of yesterday's planning
+- Planning range should be 5 years
+    - Then "work backwards" (not Andy's words) to what needs to be done in the next 12 months
+    - Months 12-24 to be looked at again in FY+1 planning
+    - Allow for time to measure the impact of decisions
+- The idea is that planners can be people apart from those implementing the plan simply does *not* work
+- YES to X means NO to Y
+
+MBO
+- Concentrate on steps 2 and 3 (12-months out, reconciliation)
+- Make objectives specific
+- Need to ask 2 questions
+    - Where do I want to go? (Objective)
+    - How will I pace myself? (Key Results)
+- System should provide *focus*
+- Focus on everything = focus on nothing
+- Nesting hierarchy of objectives
+- MBO is *not* a performance indicator
+
+Breakfast factory goes global
+- Teams in mututally supportive relationships
+- The Breakfast Factory Corporation
+    - Treat it as your own company
+
+Hybrid Organizations
+- Black boxes connected to more black boxes
+- Mission oriented vs functional form
+- Combination of responsiveness and leverage
+    - Mission oriented
+    - Supported by functional
+- Hybrid (mission/function) are inevitable
+
+Dual Reporting
+- Matrix management (Field Teams!) -> matrix oganization
+- Shift resources left and right
+- Project manager outside company management
+    - They specify *how* to do the job
+    - Monitor *how* the work is done
+- Supervision by a committee of peers
+- Making the matrix organization work (because you cannot scale a company linearly)
+- Coordination tax
+- Leverage / Focus should be on the product (and production rate) of peer groups
+
+Modes of Control
+- Ways in which actions are controlled and influenced
+- E.g. tires -> check offers -> guidance / reference -> cost -> self interest
+- E.g. a traffic light is a social contract, and the police monitor adherence to it
+- Free market -> everyone acts in their own self interest
+- Contract -> e.g. software engineer on a "retrainer" -> obligations determined by contract
+- Overhead -> managers, policemen, comissions, etc
+- Cultural Values as a mechanism for adherence ("self-regulation" or "self-monitoring")
+- Common set of values, principles (e.g. tenets!), methods, objectives
+- Management
+    - Not needed for free market
+    - ?? How to structure
+    - Job is to nurture values, methods, objectives
+        - Articulation + example
+- CUA factor -> complexity, uncertainty, ambiguity
+    - This is what makes hiring external senior leaders *hard*
+        - No base of common experience
+        - No knowledge
+        - Driven by self-interest
+- Most appropriate mode of control
+    - Andy describes a quadrant
+    - Self-Interest and Group Interest on the Y-axis
+    - Low and High CUA factor on the X-axis
+    - Low CUA + Group Interest = Contractual Obligations
+    - High CUA + Group Interest = Cultural Values
+    - Low CUA + Self-Interest = Free Market Forces
+    - High CUA + Self-Interest = Nothing Works!
+
+The Sports Analogy
+- Manager -> elicit peak performance
+    - Training and motivation
+- Motivation has to come from *within*
+- Maslow theory of motivation
+    - Strems from *needs*
+    - High motivation -> insatisfaction
+- Social needs -> formation of peer groups -> need for affiliation
+- Motivation is self-limiting
+    - Achievement reached -> loss of urgency
+- Self actualization -> no limit
+    - Competence drives the *need* to get better
+    - Achievement -> some people *must* test themselves
+- MBO -> objective high enough to be 50/50 -> peak performance -> value + emphasize output
+- How $ motivates people
+    - More $ does not always equal more motivation [I don't agree, maybe a limitation of not having "enough"? :D]
+    - Beyond $x -> measure of motivation, not enrichment
+- Feedback on performance feeds straight into motivation
+    - Has to be tied into the workings of the organization
+    - Sense of "obvious" performance
+    - Task-relevant feedback
+- Fear as a psychological driver (inadequacy)
+- Manager -> train -> move towards self-actualization
+- Help people find meaning *and* drive in/at work
+- How do we fail? [This is a note about me understanding how I am failing the organization I lead]
+- Manager
+    - No personal credit (trust)
+    - Tough and critical (develop)
+    - In the past a good player (vision and understanding)
+
+Task Relevant Maturity
+- Do not confuse TRM with general competence and maturity
+- TRM [low -> high] defines the management style [on -> off] for the individual
+- Understand who "pays" for the education of junior people
+- Clear instructions, lead by example, clear communications, deliberate objectives
+- Friendship?
+    - Key is how one relationship affects the other [e.g. can you fire someone you deeply care for]
+
+Performance Appraisal
+- What is the point of performance reviews?
+    - Improve performance
+    - Mostly emotional
+        - Skills
+        - Motivation
+    - ?? [Is a once-per-year cycle enough]
+- Activities for which output not covered in the review period
+- Biggest issue -> define what we want from employees
+- Characterize performance: output + internal measures
+- Are we doing all the things that add up to a weel-run department
+- Long vs Short term
+- Finance measure -> long term payoff of present activity -> future simplicity, savings, efficiency
+- "The light from distant stars" -> time offset between work and output
+- Manager is there to add value
+- Chance to promote values to the organization
+- Employees have *finite* capacity
+- Know what variables are being traded off
+    - Promotions create role models -> performance matters
+- Listening as a function of measuring employees internalizing feedback
+- Performance evaluation as a deductive art
+    - Write down *everything* -> look for relationships [Napkin]
+- Convey the most important messages *only* (finite capacity for internalizing)
+- Regular 1:1 meetings do not help you avoid surprises
+- Poor performer
+    - Will ignore, deny, blame others -> avoid the burden of fixing their own performance
+    - Accepting responsibility is an emotional burden
+    - 3 outcomes: accept/commit (acceptable), disagree/commit (acceptable), disagree/reject (not acceptable)
+- When something is more important to me than it is for you
+    - [e.g. the integrity of the bar]
+- Purpose of a performance review -> future-focused development plan
+- Focus on high performers -> high leverage
+    - Focus on low performers -> low leverage
+- Never pretend you and your employee are equal -> maintain a formal leadership relationship
+- Ensure time before reading and discussing performance reviews
+    - Employees will have emotional and rational responses
+- Working on "things" is reaching (your) objectives
+- Having a meeting is not "progress"
+- Speaking vs measuring the impact of the session
+- Build a "tradition" of good performance reviews
+
+Two Difficult Tasks
+- 1/ Interviewing, and 2/ Talking an employee out of quitting
+- Interviewing is an impossible mission
+    - You *cannot* predict future performance, not matter the time investment [maybe different with things like public code repos and projects?]
+- Actively listen -> interrupt, stop, ask, steer
+- 4 important things
+    - Technical knowledge
+    - What they achieved (and how!) with what they know
+    - Discrepancies between capabilities and performance
+    - Their organizational values
+- Direct questions -> direct answers
+- Focs on problem-solving ability, capacity to learn, quitting
+- Not more money -> feeling underappreciated
+
+Compensation
+- Money is task-relevant feedback
+- Significance at all levels of the Maslow pyramid
+- Paid
+    - Well enough so that money is not "curcial"
+    - But not so well that it has no material significance
+- Circumstances of each individual
+- Bonuses matter, and can solve many problems
+- Simple structure
+    - Individual performance
+    - Team performance
+    - Company performance
+- Any merit based system requires a competitive, comparative evaluation of individuals
+    - We accept it as canon in sports, but find it difficult to accept it at work
+- Peter principle -> meets / exceeds / meets cycle
+    - Driving people towards incompetence is a drive towards higher performance [!! need to think deeply about this one]
+
+Training
+- Consequences of 1 person not being trained can be dire
+- Compounded problem
+- Training -> high leverage
+    - Done by role model
+    - Some % of the time in-classroom training (time matters)
+- Distinction between new employee and new skills
+- Harder to explain that to do
+- Most knowledgeable employees first, then scale
+
+Andy's Cookbook
+- Framework for evaluating self as a manager
+- At least 100 points, then work to improve
+- Production
+    - Identify the operations in your work most like process, assembly, and test production (10)
+    - For each project, identify the limiting step and map out the flow of work around it (10)
+    - Define the proper places for the equivalents of receiving inspection, in-process inspection, and final inspection. Decide whether they should be monitoring or gate-like. Identify the conditions under which you can relax things and move to variable inspection (10)
+    - Identify half a dozen new indicators for your group's output. They should measure quantity and quality (10)
+    - Install these new indicators as a routine in your work area, and establish their regular review in your staff meetings (20)
+    - What is the most important strategy (plan of action) you are pursuing now? Describe the environmental demand that prompted it and your current status or momentum. Is your strategy likely to result in a satisfactory state of affairs for you or your organization if succesfully implemented? (20)
+- Leverage
+    - Conduct work simplification on your most tedious, time-consuming task. Eliminate at least 30% of the total number of steps involved (10)
+    - Define your output: what are the output elements of the organization you manage and the organizations you can influence? List them in order of importante (10) [!! Is money an output or a consequence]
+    - Analyze your information- and knowlege-gathering system. Is it properly balanced among "headlines", "newspaper articles", and "weekly news magazines"? [!! Go review what these mean] Is redundancy built in? (10)
+    - Take a "tour". After, list the transactions you got involved in during its course (10)
+    - Create a once-a-month "excuse" for a tour (10)
+    - Describe how you will monitor the next project you delegate to a subordinate. What will you look for? How? How frequently? (10)
+    - Generate an inventory of projects on which you can work at discretionary times (10)
+    - Hold a scheduled on-on-one with each of your subordinates. Explain to them in advance what it is and how to prepare for it (20)
+    - Look at your calendar for the last week. Classify your activities as low-/medium-/high-leverage. Generate a plan of action to do more of the high-leverage category, and what activities you will reduce (10)
+    - Forecast the demand on your time for the enxt week. What portion of your time is likely to be spent in meetings? Which of these are process-oriented meetings? Mission-oriented meetings? If the latter are over 25% of your total time, what should you do to reduce them? (10)
+    - Define the three most important objectives for your organization for the next three months. Support them with key results (20)
+    - Have your subordinates do the same for themselves, after a thorough discussion of the set generated above (20)
+    - Generate an inventory of pending decisions you are responsible for. Take three and structure the decision making process for them, using the six-question approach (10)
+- Performance
+    - Evaluate your own motivational state in terms of the Maslow hierarchy. Do the same for each of your subordinates (10)
+    - Give your subordinates a racetrack: define a set of performance indicators for each (20)
+    - List the various forms of taks-relevant feedback your subordinates receive. How well can they gauge their progress through them? (10)
+    - Classify the task-relevant maturity of each of your subordinates as low, medium, or hihg. Evaluate the management style that would be most appropriate for each. Compare what your own style is with what it should be (10)
+    - Evaluate the last performance review you received and also the last set of reviews you gave to your subordinates as a means of delivering task-relevant feedback. How well did the reviews do to improve performance? What was the nature of the communication process during the delivery of each? (20)
+    - Redo one of these reviews as it should have been done (10)
