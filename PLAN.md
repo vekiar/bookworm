@@ -1,6 +1,6 @@
 # Bookworm Tracking
 ## Currently Reading
-[ ] Build: by Tony Fadell  
+- [ ] Build: by Tony Fadell  
 
 ## Backlog List
-[ ] How to win a grand prix by Bernie Collins  
+- [ ] How to win a grand prix by Bernie Collins  
