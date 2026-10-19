@@ -1,5 +1,5 @@
-Strategic Inflection Points
-Andrew Grove
+# Strategic Inflection Points
+Speaker: Andrew Grove
 Link: https://www.youtube.com/watch?v=LfU2Qu4MzZk
 
 - Fundamental change in the well-being of a business and / or industry
