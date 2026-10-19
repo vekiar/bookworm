@@ -1,7 +1,8 @@
 # Strategic Inflection Points
-Speaker: Andrew Grove
-Link: https://www.youtube.com/watch?v=LfU2Qu4MzZk
+Speaker: Andrew Grove  
+Link: https://www.youtube.com/watch?v=LfU2Qu4MzZk  
 
+Notes:
 - Fundamental change in the well-being of a business and / or industry
 - Exactly at the inflection point -> business changes in a sutile but profound manner (talent vs genius)
 - No adjustment at the inflection point -> decline
