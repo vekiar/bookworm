@@ -1,6 +1,8 @@
-High Output Management
+# High Output Management
+Author: Andrew Grove  
+ISBN: 978-0-679-76288-1  
 
-Introduction
+## Introduction
 - When under strong attack, lead with your strength(s).
 - Being second best in a tough environment is just not good enough.
 - The US Market for goods and services is the largest in the world [mrv: still true?].
@@ -41,14 +43,14 @@ Introduction
     - The key to survival is to learn to add more value.
 - Apply the methods of _production_, exercise _managerial leverage_, and elicit an athlete's desire for _peak performance_ = be more productive.
 
-Foreword
+## Foreword
 - "High Output Management" teaches people how to be great.
 - All you can do to improve the output of a builder is motivate and train them.
 - Energy put into the process early pays off tenfold, energy put into the process at the end has a negative effect.
 - Andy was always teaching and always expecting more from every student.
 - "CEOs always act on leading indicators of good news, but only act on lagging indicators of bad news".
 
-The Breakfast Factory
+## The Breakfast Factory
 - "Your job is to prepare and deliver the three items [coffee, soft-boiled egg, buttered toast] simultaneously, each of them fresh and hot".
 - "Breakfast preparation, college recruiting, sales training, and compiler design are very much unlike one another, but all of them posses a basically similar flow of activit to produce a specific output".
 - Basic requirements: delivery time (fast), quality (good), cost (cheap).
@@ -115,7 +117,7 @@ The Breakfast Factory
     - Raw egg -> candidate is the employee
     - Do not allow the wrong step to limit the process
 
-Managing the Breakfast Factory
+## Managing the Breakfast Factory
 - Indicators as key tools
 - Outputs change
     - From personal experience -> performance indicators
@@ -152,7 +154,7 @@ Managing the Breakfast Factory
 - Standards for work (output) and staffing to forecast 
     - (!!) Flywheel for productivity
 
-Assuring Quality
+## Assuring Quality
 - Inspection points
     - Incoming inspection
     - In process
@@ -167,7 +169,7 @@ Assuring Quality
         - If sample size adequate, undesirables will be kept out
         - Variable inspection, if the % of inspected applications should be rejected, inspect more
 
-Productivity
+## Productivity
 - Productivity = output / labor
     - To increase it -> work faster or harder
     - Or change the nature of the work performed
@@ -180,7 +182,7 @@ Productivity
         - Why is each step performed?
 - Soft professions -> hard to define output -> likened to activity
 
-Management is a Team Game
+## Management is a Team Game
 - Manager output = sum(Output(organization) + Output(adjacent_organizations))
 - Work is done by _teams_
 - Manager should not create output
@@ -203,7 +205,7 @@ Management is a Team Game
 - Nothing leads as well as example
 - Meetings should be a medium to gather and give information, set expectations, be a role model
 
-Leverage
+## Leverage
 - Manager output is the product of activities and their corresponding leverage
 - Output of a manager can be increased by:
     - Increasing the rate of activities
@@ -229,7 +231,7 @@ Leverage
 - Staff meeting / office hours -> batch questions
 - Use indicators to have information readily available
 
-Meetings
+## Meetings
 - They are a *medium* to supply information and know-how
 - Your goal should be to use them effectively
 - Be process- and mission oriented
@@ -274,7 +276,7 @@ Meetings
     - Time wasted = money wasted
     - (!!) Look at p. 87 for why firedrills are a symptom of a disease
 
-Decisions
+## Decisions
 - Knowledge industry: divergence of power (position, knowledge)
     - Higher position implies lower knowledge (of the domain and what is happening)
 - Differentiated decision-making process
@@ -297,7 +299,7 @@ Decisions
     - Who will need to be informed of the decision?
 - Consistency is *how* we make decisions
 
-Planning today's actions for tomorrow's output
+## Planning today's actions for tomorrow's output
 - Planning is an ordinary activity (GRACIAS!!)
 - Key method to control output is demand forecasting
     - Determine market demand
@@ -323,7 +325,7 @@ Planning today's actions for tomorrow's output
 - The idea is that planners can be people apart from those implementing the plan simply does *not* work
 - YES to X means NO to Y
 
-MBO
+## MBO
 - Concentrate on steps 2 and 3 (12-months out, reconciliation)
 - Make objectives specific
 - Need to ask 2 questions
@@ -334,12 +336,12 @@ MBO
 - Nesting hierarchy of objectives
 - MBO is *not* a performance indicator
 
-Breakfast factory goes global
+## Breakfast factory goes global
 - Teams in mututally supportive relationships
 - The Breakfast Factory Corporation
     - Treat it as your own company
 
-Hybrid Organizations
+## Hybrid Organizations
 - Black boxes connected to more black boxes
 - Mission oriented vs functional form
 - Combination of responsiveness and leverage
@@ -347,7 +349,7 @@ Hybrid Organizations
     - Supported by functional
 - Hybrid (mission/function) are inevitable
 
-Dual Reporting
+## Dual Reporting
 - Matrix management (Field Teams!) -> matrix oganization
 - Shift resources left and right
 - Project manager outside company management
@@ -358,7 +360,7 @@ Dual Reporting
 - Coordination tax
 - Leverage / Focus should be on the product (and production rate) of peer groups
 
-Modes of Control
+## Modes of Control
 - Ways in which actions are controlled and influenced
 - E.g. tires -> check offers -> guidance / reference -> cost -> self interest
 - E.g. a traffic light is a social contract, and the police monitor adherence to it
@@ -386,7 +388,7 @@ Modes of Control
     - Low CUA + Self-Interest = Free Market Forces
     - High CUA + Self-Interest = Nothing Works!
 
-The Sports Analogy
+## The Sports Analogy
 - Manager -> elicit peak performance
     - Training and motivation
 - Motivation has to come from *within*
@@ -416,7 +418,7 @@ The Sports Analogy
     - Tough and critical (develop)
     - In the past a good player (vision and understanding)
 
-Task Relevant Maturity
+## Task Relevant Maturity
 - Do not confuse TRM with general competence and maturity
 - TRM [low -> high] defines the management style [on -> off] for the individual
 - Understand who "pays" for the education of junior people
@@ -424,7 +426,7 @@ Task Relevant Maturity
 - Friendship?
     - Key is how one relationship affects the other [e.g. can you fire someone you deeply care for]
 
-Performance Appraisal
+## Performance Appraisal
 - What is the point of performance reviews?
     - Improve performance
     - Mostly emotional
@@ -465,7 +467,7 @@ Performance Appraisal
 - Speaking vs measuring the impact of the session
 - Build a "tradition" of good performance reviews
 
-Two Difficult Tasks
+## Two Difficult Tasks
 - 1/ Interviewing, and 2/ Talking an employee out of quitting
 - Interviewing is an impossible mission
     - You *cannot* predict future performance, not matter the time investment [maybe different with things like public code repos and projects?]
@@ -479,7 +481,7 @@ Two Difficult Tasks
 - Focs on problem-solving ability, capacity to learn, quitting
 - Not more money -> feeling underappreciated
 
-Compensation
+## Compensation
 - Money is task-relevant feedback
 - Significance at all levels of the Maslow pyramid
 - Paid
@@ -496,7 +498,7 @@ Compensation
 - Peter principle -> meets / exceeds / meets cycle
     - Driving people towards incompetence is a drive towards higher performance [!! need to think deeply about this one]
 
-Training
+## Training
 - Consequences of 1 person not being trained can be dire
 - Compounded problem
 - Training -> high leverage
@@ -506,7 +508,7 @@ Training
 - Harder to explain that to do
 - Most knowledgeable employees first, then scale
 
-Andy's Cookbook
+## Andy's Cookbook
 - Framework for evaluating self as a manager
 - At least 100 points, then work to improve
 - Production
